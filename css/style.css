@@ -29,6 +29,7 @@ ul {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* ---------------
@@ -113,6 +114,11 @@ ul li a img {
 
 .ban_main .ban_img {
     position: relative;
+    width: 475px;
+}
+
+.ban_img svg {
+    width: 100%;
 }
 
 .ban_main .ban_img img {
@@ -275,14 +281,47 @@ ul li a img {
     cursor: pointer;
 }
 
-.feature_main .feature_text button i{
+.feature_main .feature_text button i {
     margin-left: 8px;
 }
 
 /* -----------------
     footer area css
    ----------------- */
-footer{
+footer {
     padding: 50px 0;
     background-color: #0A0826;
+}
+
+footer .header {
+    color: var(--other);
+    margin-bottom: 10px;
+}
+
+.footer_main p {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--secondary_ff);
+    color: var(--other);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer_main .link{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_main .link i{
+    color: var(--other);
+    margin: 0 10px;
+    height: 32px;
+    width: 32px;
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none;
 }
